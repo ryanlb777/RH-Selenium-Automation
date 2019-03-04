@@ -1,3 +1,3 @@
-WEBSITE_URL = ''
+WEBSITE_URL = 'https://robinhood.com/login'
 USERNAME = ''
 PASSWORD = ''
