@@ -1,0 +1,3 @@
+WEBSITE_URL = ''
+USERNAME = ''
+PASSWORD = ''
