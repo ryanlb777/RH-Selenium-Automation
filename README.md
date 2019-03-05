@@ -1,6 +1,6 @@
 # Robinhood-Automation
 
-### [Youtube Tutorial](https://www.youtube.com/watch?v=Yq0Jf4bpSGM):
+### [Youtube Tutorial](https://www.youtube.com/watch?v=Yq0Jf4bpSGM)
 Tutorial that uses python and selenium to login and buy stocks for educational purposes
 
 ### Setup
