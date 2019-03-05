@@ -1,9 +1,7 @@
 # Robinhood-Automation
 
-### About:
-Tutorial on how to automate trading in robinhood.
-Uses python and selenium to login and buy stocks from robinhoods website.
-[Youtube](https://www.youtube.com/watch?v=Yq0Jf4bpSGM)
+### [Youtube Tutorial](https://www.youtube.com/watch?v=Yq0Jf4bpSGM):
+Tutorial that uses python and selenium to login and buy stocks for educational purposes
 
 ### Setup
 1. Install Selenium and Python
