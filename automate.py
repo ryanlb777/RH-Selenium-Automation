@@ -6,8 +6,9 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC 
 from selenium.webdriver.chrome.options import Options 
 
-print(config.WEBSITE_URL)
+
 chrome_options = Options()  
+## if we want to use chrome headless
 #chrome_options.add_argument("--headless")  
 driver = webdriver.Chrome(executable_path="/usr/bin/chromedriver",chrome_options=chrome_options)
 
@@ -42,10 +43,6 @@ def BuyMethod(driver,buy_order,config):
     lambda x: x.find_element_by_xpath('/html/body/div[1]/div/main/div[2]/div/div/div/main/div[2]/div[2]/div/form/div[1]/div[3]/div/div[2]/button')
     )
     review_button.click()
-
-
-
-
    
     buy_button = WebDriverWait(driver,30).until(
         lambda x: x.find_element_by_xpath('/html/body/div[1]/div/main/div[2]/div/div/div/main/div[2]/div[2]/div/form/div[1]/div[3]/div/div[2]/button[1]').click()
