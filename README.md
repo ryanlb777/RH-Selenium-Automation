@@ -8,4 +8,4 @@ Uses python and selenium to login and buy stocks from robinhoods website.
 ### Setup
 1. Install Selenium and Python
 2. Set username in password in config.py
-3. Run script with ```sh python automate.py```
+3. Run script with ```python automate.py```
